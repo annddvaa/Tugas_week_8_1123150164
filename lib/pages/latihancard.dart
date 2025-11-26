@@ -99,6 +99,13 @@ class Latihancard extends StatelessWidget {
                     child: Text("Border tidak menimpa konten"),
                   ),
                 ),
+                Card(
+                  clipBehavior: Clip.antiAlias,
+                  child: Text(
+                    "Anti alias clip Card",
+                    style: TextStyle(fontSize: 14.0),
+                  ),
+                ),
               ],
             ),
           ),
