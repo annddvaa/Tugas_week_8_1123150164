@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tugas_week_8/pages/latihancard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,12 +11,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Latihan card",
+      title: "Tugas week 8",
       theme: ThemeData(
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.amber),
       ),
-      // home: ,
+      home: Latihancard(),
       debugShowCheckedModeBanner: false,
     );
   }

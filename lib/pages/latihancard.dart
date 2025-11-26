@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
 
-class MyWidget extends StatelessWidget {
-  const MyWidget({super.key});
+class Latihancard extends StatelessWidget {
+  const Latihancard({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(title: const Text("Latihan Card"), actions: const []),
+      body: SingleChildScrollView(
+        child: Container(
+          padding: const EdgeInsets.all(20.0),
+          child: const Column(children: []),
+        ),
+      ),
+    );
   }
 }
