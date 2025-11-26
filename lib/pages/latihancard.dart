@@ -126,6 +126,18 @@ class Latihancard extends StatelessWidget {
                     ),
                   ),
                 ),
+                Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadiusGeometry.circular(30.0),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      "Custom border radius card",
+                      style: TextStyle(fontSize: 14.0),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
