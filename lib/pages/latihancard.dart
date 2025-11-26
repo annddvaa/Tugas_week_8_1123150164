@@ -8,18 +8,30 @@ class Latihancard extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(title: const Text("Latihan Card"), actions: const []),
       body: SingleChildScrollView(
-        child: Container(
-          padding: const EdgeInsets.all(20.0),
-          child: const Column(
-            children: [
-              Card(
-                color: Colors.red,
-                child: Text(
-                  "Card with color",
-                  style: TextStyle(fontSize: 16.0),
+        child: Center(
+          child: Container(
+            padding: const EdgeInsets.all(20.0),
+            child: Column(
+              children: [
+                const Card(
+                  color: Colors.red,
+                  child: Text(
+                    "Card with color",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
                 ),
-              ),
-            ],
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12.0),
+                    color: Colors.red,
+                  ),
+                  child: const Text(
+                    "Container with color",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                ),
+              ],
+            ),
           ),
         ),
       ),
