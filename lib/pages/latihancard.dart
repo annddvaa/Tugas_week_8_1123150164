@@ -55,6 +55,18 @@ class Latihancard extends StatelessWidget {
                     style: TextStyle(fontSize: 16.0),
                   ),
                 ),
+                Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadiusGeometry.circular(15.0),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      "Shape bingkai persegi panjang",
+                      style: TextStyle(fontSize: 16.0),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
