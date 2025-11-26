@@ -165,26 +165,45 @@ class Latihancard extends StatelessWidget {
                           ),
                           textAlign: TextAlign.justify,
                         ),
-                        Card(
-                          elevation: 8,
-                          shadowColor: Colors.red,
-                          clipBehavior: Clip.antiAlias,
-                          child: Container(
-                            decoration: BoxDecoration(
-                              gradient: LinearGradient(
-                                begin: Alignment.topRight,
-                                end: Alignment.bottomLeft,
-                                colors: [Colors.blue, Colors.red],
-                              ),
-                            ),
-                            child: Text(
-                              "text",
-                              style: TextStyle(fontSize: 20.0),
-                            ),
-                          ),
-                        ),
                       ],
                     ),
+                  ),
+                ),
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.all(Radius.circular(16.0)),
+                    gradient: LinearGradient(
+                      begin: Alignment.topRight,
+                      end: Alignment.bottomLeft,
+                      colors: [Colors.blue, Colors.red],
+                    ),
+                  ),
+                  padding: const EdgeInsets.all(20.0),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          border: Border.all(color: Colors.white, width: 4),
+                        ),
+                        child: CircleAvatar(
+                          radius: 60,
+                          backgroundImage: AssetImage(
+                            "assets/images/kupukupumalam.jpg",
+                          ),
+                        ),
+                      ),
+                      SizedBox(height: 10),
+                      Text(
+                        "Dav",
+                        style: TextStyle(
+                          fontSize: 26.0,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.white,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ],
