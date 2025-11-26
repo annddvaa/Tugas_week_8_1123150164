@@ -10,7 +10,17 @@ class Latihancard extends StatelessWidget {
       body: SingleChildScrollView(
         child: Container(
           padding: const EdgeInsets.all(20.0),
-          child: const Column(children: []),
+          child: const Column(
+            children: [
+              Card(
+                color: Colors.red,
+                child: Text(
+                  "Card with color",
+                  style: TextStyle(fontSize: 16.0),
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
