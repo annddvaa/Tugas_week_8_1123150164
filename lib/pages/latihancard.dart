@@ -87,10 +87,17 @@ class Latihancard extends StatelessWidget {
                     "Border tidak menimpa konten",
                     style: TextStyle(fontSize: 16.0),
                   ),
-                  // child: Padding(
-                  // padding: EdgeInsets.all(8),
-                  // child: Text("Border tidak menimpa konten"),
-                  // ),
+                ),
+                Card(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                    side: BorderSide(color: Colors.red, width: 2),
+                  ),
+                  borderOnForeground: true, // false
+                  child: Padding(
+                    padding: EdgeInsets.all(8),
+                    child: Text("Border tidak menimpa konten"),
+                  ),
                 ),
               ],
             ),
