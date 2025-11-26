@@ -218,6 +218,78 @@ class Latihancard extends StatelessWidget {
                           ),
                         ),
                       ),
+                      SizedBox(height: 10),
+                      Row(
+                        crossAxisAlignment: CrossAxisAlignment.center,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: [
+                          Column(
+                            children: [
+                              Text(
+                                "100",
+                                style: TextStyle(
+                                  fontSize: 22.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              SizedBox(height: 5),
+                              Text(
+                                "Follower",
+                                style: TextStyle(
+                                  fontSize: 14.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white.withValues(alpha: 0.5),
+                                ),
+                              ),
+                            ],
+                          ),
+                          SizedBox(width: 20),
+                          Column(
+                            children: [
+                              Text(
+                                "100",
+                                style: TextStyle(
+                                  fontSize: 22.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              SizedBox(height: 5),
+                              Text(
+                                "Follower",
+                                style: TextStyle(
+                                  fontSize: 14.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white.withValues(alpha: 0.5),
+                                ),
+                              ),
+                            ],
+                          ),
+                          SizedBox(width: 20),
+                          Column(
+                            children: [
+                              Text(
+                                "100",
+                                style: TextStyle(
+                                  fontSize: 22.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white,
+                                ),
+                              ),
+                              SizedBox(height: 5),
+                              Text(
+                                "Follower",
+                                style: TextStyle(
+                                  fontSize: 14.0,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.white.withValues(alpha: 0.5),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
                     ],
                   ),
                 ),
