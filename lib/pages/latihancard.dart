@@ -38,6 +38,23 @@ class Latihancard extends StatelessWidget {
                     style: TextStyle(fontSize: 16.0),
                   ),
                 ),
+                Container(
+                  decoration: BoxDecoration(
+                    color: Colors.yellow,
+                    borderRadius: BorderRadius.circular(16),
+                    boxShadow: [
+                      BoxShadow(
+                        color: Colors.black26,
+                        blurRadius: 10,
+                        offset: Offset(0, 4),
+                      ),
+                    ],
+                  ),
+                  child: Text(
+                    "Tinggi bayangan shadow",
+                    style: TextStyle(fontSize: 16.0),
+                  ),
+                ),
               ],
             ),
           ),
